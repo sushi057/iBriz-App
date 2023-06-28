@@ -1,5 +1,5 @@
 import React from "react";
-import Blog from "../assets/Blog.png";
+import Blog from "../assets/images/Blog.png";
 import "../styles/header.css";
 
 export default function Header() {
