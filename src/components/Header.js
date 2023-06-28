@@ -6,10 +6,10 @@ export default function Header() {
   return (
     <div className="header">
       <div className="left">
-        <img src={Blog} alt="blog logo" />
+        <img src={Blog} alt="blog logo" id="logo" />
       </div>
       <div className="right">
-        <div className="add-btn">X</div>
+        <p className="add-btn">+</p>
       </div>
     </div>
   );

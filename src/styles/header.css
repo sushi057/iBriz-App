@@ -1,0 +1,28 @@
+:root {
+  --primary: #cf0a0a;
+  --secondary: #000000;
+  --accent: #dc5f00;
+  --bground: #eeeeee;
+}
+
+#logo {
+  width: 12em;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em 4em;
+}
+
+.add-btn {
+  background-color: var(--secondary);
+  border-radius: 100%;
+  padding: 0.2em;
+  width: 1.6em;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 2.2em;
+  color: var(--bground);
+}
