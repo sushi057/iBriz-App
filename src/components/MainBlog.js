@@ -1,34 +1,27 @@
 import React, { useState } from "react";
+import illustration from "../assets/images/illustration.svg";
 import "../styles/mainblog.css";
+import BlogItem from "./BlogItem";
 import articles from "../assets/articles";
 
 function MainBlog() {
-  const [selectedArticle, setSelectedArticle] = useState(null);
-
-  const handleArticleClick = (article) => {
-    setSelectedArticle(article);
-  };
-
   return (
     <div className="main-blog">
       <div className="blog-list">
-        {articles.map((article) => (
-          <div
-            key={article.id}
-            className="blog-item"
-            onClick={() => handleArticleClick(article)}
-          >
-            <h2 className="blog-title">{article.title}</h2>
-            <p className="blog-content">{article.content}</p>
-          </div>
+        {articles.map((blog) => (
+          <BlogItem
+            key={blog.id}
+            title={blog.title}
+            author={blog.author}
+            date={blog.date}
+            content={blog.content}
+            onClick={() => {}}
+          />
         ))}
       </div>
-      {selectedArticle && (
-        <div className="full-blog">
-          <h2 className="blog-title">{selectedArticle.title}</h2>
-          <p className="blog-content">{selectedArticle.content}</p>
-        </div>
-      )}
+      <div className="illustration">
+        <img src={illustration} alt="man reading book" />
+      </div>
     </div>
   );
 }
