@@ -9,6 +9,7 @@ export default function Header() {
         <img src={Blog} alt="blog logo" id="logo" />
       </div>
       <div className="right">
+        <p className="btn-text">Add new article</p>
         <p className="add-btn">+</p>
       </div>
     </div>

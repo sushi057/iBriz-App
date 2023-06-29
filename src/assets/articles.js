@@ -5,7 +5,7 @@ const articles = [
     author: "John Doe",
     date: "June 1, 2023",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac purus non ipsum dictum condimentum. Nulla sit amet nulla in velit aliquet facilisis id in lectus.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac purus non ipsum dictum condimentum. Nulla sit amet nulla in velit aliquet facilisis id in lectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac purus non ipsum dictum condimentum. Nulla sit amet nulla in velit aliquet facilisis id in lectus.",
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ const articles = [
     author: "Jane Smith",
     date: "June 5, 2023",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac purus non ipsum dictum condimentum. Nulla sit amet nulla in velit aliquet facilisis id in lectus.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac purus non ipsum dictum condimentum. Nulla sit amet nulla in velit aliquet facilisis id in lectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac purus non ipsum dictum condimentum. Nulla sit amet nulla in velit aliquet facilisis id in lectus.",
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ const articles = [
     author: "David Johnson",
     date: "June 10, 2023",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac purus non ipsum dictum condimentum. Nulla sit amet nulla in velit aliquet facilisis id in lectus.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac purus non ipsum dictum condimentum. Nulla sit amet nulla in velit aliquet facilisis id in lectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac purus non ipsum dictum condimentum. Nulla sit amet nulla in velit aliquet facilisis id in lectus.",
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ const articles = [
     author: "Emily Wilson",
     date: "June 15, 2023",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac purus non ipsum dictum condimentum. Nulla sit amet nulla in velit aliquet facilisis id in lectus.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac purus non ipsum dictum condimentum. Nulla sit amet nulla in velit aliquet facilisis id in lectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac purus non ipsum dictum condimentum. Nulla sit amet nulla in velit aliquet facilisis id in lectus.",
   },
 ];
 

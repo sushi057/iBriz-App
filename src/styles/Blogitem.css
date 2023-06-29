@@ -2,16 +2,12 @@
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  margin-bottom: 20px;
-  cursor: pointer;
-  transition: transform 0.3s ease;
+  padding: 1.5em;
+  margin-bottom: 2em;
   width: 75%;
 }
 
 .blog-item:hover {
-  transform: translateY(-3px);
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .blog-detail {
@@ -23,9 +19,30 @@
   margin-bottom: 1em;
 }
 
+.heading,
+.heading-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* border: 1px solid; */
+}
+
+.heading-icons {
+  gap: 1em;
+}
+
+.blog-icons {
+  /* border: 3px solid var(--secondary); */
+  width: 2.8em;
+  cursor: pointer;
+}
+
+.blog-icons:hover {
+  filter: invert(40%);
+}
+
 .blog-title {
-  font-size: 24px;
-  margin-bottom: 10px;
+  font-size: 1.8em;
 }
 
 .blog-content {
