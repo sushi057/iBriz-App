@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Blogitem.css";
-import editBtn from "../assets/images/git.svg";
-import deleteBtn from "../assets/images/git.svg";
+import editBtn from "../assets/images/edit.svg";
+import deleteBtn from "../assets/images/delete.svg";
 
 function BlogItem({ title, author, date, content, onClick }) {
   return (
