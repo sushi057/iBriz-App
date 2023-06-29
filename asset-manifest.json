@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/iBriz-App/static/css/main.53b7ec20.css",
+    "main.js": "/iBriz-App/static/js/main.528116a3.js",
+    "index.html": "/iBriz-App/index.html",
+    "main.53b7ec20.css.map": "/iBriz-App/static/css/main.53b7ec20.css.map",
+    "main.528116a3.js.map": "/iBriz-App/static/js/main.528116a3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53b7ec20.css",
+    "static/js/main.528116a3.js"
+  ]
+}
