@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/iBriz-App/static/css/main.12c84987.css",
-    "main.js": "/iBriz-App/static/js/main.fd317aa9.js",
+    "main.js": "/iBriz-App/static/js/main.b5f195fa.js",
     "static/media/illustration.svg": "/iBriz-App/static/media/illustration.c0a75cefb02553ff85f873038b272f89.svg",
     "static/media/edit.svg": "/iBriz-App/static/media/edit.a574ceeb1c9ceb954e67c214b155a7b4.svg",
     "static/media/delete.svg": "/iBriz-App/static/media/delete.4cde6cf6920bc0095507d84686670872.svg",
     "index.html": "/iBriz-App/index.html",
     "main.12c84987.css.map": "/iBriz-App/static/css/main.12c84987.css.map",
-    "main.fd317aa9.js.map": "/iBriz-App/static/js/main.fd317aa9.js.map"
+    "main.b5f195fa.js.map": "/iBriz-App/static/js/main.b5f195fa.js.map"
   },
   "entrypoints": [
     "static/css/main.12c84987.css",
-    "static/js/main.fd317aa9.js"
+    "static/js/main.b5f195fa.js"
   ]
 }
