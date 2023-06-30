@@ -5,7 +5,7 @@ const articles = [
     author: "John Doe",
     date: "June 1, 2023",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac purus non ipsum dictum condimentum. Nulla sit amet nulla in velit aliquet facilisis id in lectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac purus non ipsum dictum condimentum. Nulla sit amet nulla in velit aliquet facilisis id in lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac purus non ipsum dictum condimentum. Nulla sit amet nulla in velit aliquet facilisis id in lectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac purus non ipsum dictum condimentum. Nulla sit amet nulla in velit aliquet facilisis id in lectus.",
+      "Ok lemme guess Bhitra basda maan parcha holaAni bahira niskina paryo bhane Hilo huncha bhanera maan pardaina ipsum dictum condimentum. Nulla sit amet nulla in velit aliquet facilisis id in lectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac purus non ipsum dictum condimentum. Nulla sit amet nulla in velit aliquet facilisis id in lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac purus non ipsum dictum condimentum. Nulla sit amet nulla in velit aliquet facilisis id in lectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac purus non ipsum dictum condimentum. Nulla sit amet nulla in velit aliquet facilisis id in lectus.",
   },
   {
     id: 2,
