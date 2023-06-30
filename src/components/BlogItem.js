@@ -3,15 +3,32 @@ import "../styles/Blogitem.css";
 import editBtn from "../assets/images/edit.svg";
 import deleteBtn from "../assets/images/delete.svg";
 
-function BlogItem({ title, author, date, content, onClick }) {
+function BlogItem({ id, title, author, date, content, onEdit, onDelete }) {
+  function handleEdit() {
+    onEdit(id);
+  }
+  function handleDelete() {
+    onDelete(id);
+  }
+  
   return (
-    <div className="blog-item" onClick={onClick}>
+    <div className="blog-item">
       <div className="blog-header">
         <div className="heading">
           <h2 className="blog-title">{title}</h2>
           <div className="heading-icons">
-            <img src={editBtn} className="blog-icons" alt="edit button" />
-            <img src={deleteBtn} className="blog-icons" alt="delete button" />
+            <img
+              src={editBtn}
+              className="blog-icons"
+              alt="edit button"
+              onClick={handleEdit}
+            />
+            <img
+              src={deleteBtn}
+              className="blog-icons"
+              alt="delete button"
+              onClick={handleDelete}
+            />
           </div>
         </div>
         <div className="blog-detail">

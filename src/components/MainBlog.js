@@ -5,6 +5,9 @@ import BlogItem from "./BlogItem";
 import articles from "../assets/articles";
 
 function MainBlog() {
+  const [blogList, setBlogList] = useState(articles);
+
+  function handleEdit(id) {}
   return (
     <div className="main-blog">
       <div className="blog-list">
@@ -15,7 +18,7 @@ function MainBlog() {
             author={blog.author}
             date={blog.date}
             content={blog.content}
-            onClick={() => {}}
+            
           />
         ))}
       </div>
