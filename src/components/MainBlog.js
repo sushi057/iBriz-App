@@ -48,8 +48,27 @@ function MainBlog() {
       {selectedBlog && (
         <div className="edit-blog">
           <h2>Edit Blog</h2>
-          {/* Render form or component for editing the blog */}
-          {/* Pass selectedBlog and handleUpdateBlog as props */}
+          <form
+            onSubmit={(e) => {
+              e.preventDefault();
+              handleUpdateBlog(selectedBlog);
+            }}
+          >
+            <input
+              type="text"
+              value={selectedBlog.title}
+              onChange={(e) =>
+                setSelectedBlog({ ...selectedBlog, title: e.target.value })
+              }
+            />
+            <textarea
+              value={selectedBlog.content}
+              onChange={(e) =>
+                setSelectedBlog({ ...selectedBlog, content: e.target.value })
+              }
+            ></textarea>
+            <button type="submit">Update</button>
+          </form>
         </div>
       )}
       <div className="illustration">
