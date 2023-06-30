@@ -19,12 +19,9 @@ function MainBlog() {
   };
 
   const handleUpdateBlog = (updatedBlog) => {
-    const updatedBlogList = blogList.map((blog) => {
-      if (blog.id === updatedBlog.id) {
-        return updatedBlog;
-      }
-      return blog;
-    });
+    const updatedBlogList = blogList.map((blog) =>
+      blog.id === updatedBlog.id ? updatedBlog : blog
+    );
     setBlogList(updatedBlogList);
     setSelectedBlog(null);
   };
@@ -58,13 +55,19 @@ function MainBlog() {
               type="text"
               value={selectedBlog.title}
               onChange={(e) =>
-                setSelectedBlog({ ...selectedBlog, title: e.target.value })
+                setSelectedBlog({
+                  ...selectedBlog,
+                  title: e.target.value,
+                })
               }
             />
             <textarea
               value={selectedBlog.content}
               onChange={(e) =>
-                setSelectedBlog({ ...selectedBlog, content: e.target.value })
+                setSelectedBlog({
+                  ...selectedBlog,
+                  content: e.target.value,
+                })
               }
             ></textarea>
             <button type="submit">Update</button>
